@@ -3,6 +3,7 @@
   max-width: var(--cMaxWidth);
   width: var(--cWidth);
   justify-content: space-between;
+  align-items: center;
   padding: 20px 0px;
   margin-bottom: -100px;
   box-sizing: border-box;
@@ -80,4 +81,10 @@
   .navbar-title {
     font-size: 18px;
   }
+}
+
+.navbar-logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
 }
